@@ -1,0 +1,235 @@
+{
+  "cookies": [
+    {
+      "name": "LSLanguage",
+      "value": "en-US",
+      "domain": ".onesourcetax.com",
+      "path": "/",
+      "expires": 1803227349,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "OpenIdConnect.nonce.PnBEG8wz%2BRI5Gc8lOKKjl1p1KC%2Fl9KvqR3tsQDAsoug%3D",
+      "value": "U3VJVVFFNUVLajFLcjN6eG9Ic3FRcWpmd1BJQ2J6RzFsbzFuYmRBZG5QbHE0dnRXakp3S1JUSFRseV9HOHgyS1lVeE1BSGNiNWxjeG5SV1o1bHA4NzZCdF91U0xrOXRyRTFCMEZqajUzR2ptNnRZWlg1RlBMSm1pTDExanRPeFJFdEhFYjZxRkdseHE4aDRnSTVMdlJua0NiYXBlRVBULUNLWUhzeWs4WUVuenBFWHVwRnFWSDE5OFhPZDdCTU15Rmtrak5DSlNsRTJGbjVkNExoY3ZvTHhTZ1lv",
+      "domain": "sat.onesourcetax.com",
+      "path": "/",
+      "expires": 1771692240.877565,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "did",
+      "value": "s%3Av0%3A299ac34f-7929-47e6-a075-0f8eba6cdd29%3Afc8b4eadc9c386126bb0cd94058d7f1fdb340805b7332795a434903392f02a00.L1kSUP%2FR6d76CuXi1fzyYcips00soLOVODukRGoq7rg",
+      "domain": "auth-nonprod.thomsonreuters.com",
+      "path": "/",
+      "expires": 1803248944.856995,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "did_compat",
+      "value": "s%3Av0%3A299ac34f-7929-47e6-a075-0f8eba6cdd29%3Afc8b4eadc9c386126bb0cd94058d7f1fdb340805b7332795a434903392f02a00.L1kSUP%2FR6d76CuXi1fzyYcips00soLOVODukRGoq7rg",
+      "domain": "auth-nonprod.thomsonreuters.com",
+      "path": "/",
+      "expires": 1803248944.857549,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "auth0",
+      "value": "s%3AtQOW47-r_v_ird1qZbqgeOkEJ9VOUsL4.S9TFw7zi5I3uxfFe4toDB2ZMDp5IbrOxV%2BId9S3YsXo",
+      "domain": "auth-nonprod.thomsonreuters.com",
+      "path": "/",
+      "expires": 1771777445.85948,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "auth0_compat",
+      "value": "s%3AtQOW47-r_v_ird1qZbqgeOkEJ9VOUsL4.S9TFw7zi5I3uxfFe4toDB2ZMDp5IbrOxV%2BId9S3YsXo",
+      "domain": "auth-nonprod.thomsonreuters.com",
+      "path": "/",
+      "expires": 1771777445.859714,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ASP.NET_SessionId",
+      "value": "3gqix3scay42dv21h5gj0vfe",
+      "domain": "sat.onesourcetax.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "CIAM_TR_Login",
+      "value": "True",
+      "domain": "sat.onesourcetax.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "CIAM_SSO_Login",
+      "value": "",
+      "domain": "sat.onesourcetax.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "bgImage",
+      "value": "https://image-svc-preprod.lsf.onesourcetax.com/images/image14.jpg",
+      "domain": "sat.onesourcetax.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "LS2BGImageId",
+      "value": "14",
+      "domain": ".onesourcetax.com",
+      "path": "/",
+      "expires": 1771694946.878572,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "AWSALB",
+      "value": "91/QAzJ+pvoP1I1Q6EvM1udxrmLFWg+QWIVpI+aAWliHOdlXpSUcNb807XH6/PZcSLHy5yxbQkVUdkwRRPTqBfwuP7cX+3GRH+w8Kb7I4g9yLfgTpsE80MPkXs9G",
+      "domain": "sat.onesourcetax.com",
+      "path": "/",
+      "expires": 1772296148.005196,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "AWSALBCORS",
+      "value": "91/QAzJ+pvoP1I1Q6EvM1udxrmLFWg+QWIVpI+aAWliHOdlXpSUcNb807XH6/PZcSLHy5yxbQkVUdkwRRPTqBfwuP7cX+3GRH+w8Kb7I4g9yLfgTpsE80MPkXs9G",
+      "domain": "sat.onesourcetax.com",
+      "path": "/",
+      "expires": 1772296148.005454,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_xsrfForceChange",
+      "value": "UNKNOWN_ID",
+      "domain": ".onesourcetax.com",
+      "path": "/",
+      "expires": 1771694948.005811,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "RedirectTo",
+      "value": "https://sat.onesourcetax.com/",
+      "domain": "sat.onesourcetax.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "UDSLongToken",
+      "value": "sat-RttyiLAM6TLiY0f1YCfN1RH3eJ-LnVo6HT00XnpC4AeHG7R5XwGOFXuMbmMuh60I",
+      "domain": "sat.onesourcetax.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "DemNextId",
+      "value": "ab4b1cd00d6d46a0ad0f61b6012f856c",
+      "domain": "sat.onesourcetax.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "DemSessionId",
+      "value": "UNKNOWN_ID",
+      "domain": "sat.onesourcetax.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "AMCV_A7D63BC75245AE300A490D4D%40AdobeOrg",
+      "value": "-1124106680%7CMCIDTS%7C20506%7CvVersion%7C5.2.0",
+      "domain": ".onesourcetax.com",
+      "path": "/",
+      "expires": 1806251355.254151,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_dd_s",
+      "value": "aid=09f1d958-811a-47ab-a0b9-e1a2bab5d3fc&rum=1&id=7afe8a1c-5dd2-4aba-bd72-d007aa2d5998&created=1771691354172&expire=1771692255504",
+      "domain": "sat.onesourcetax.com",
+      "path": "/",
+      "expires": 1771692255,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Strict"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://sat.onesourcetax.com",
+      "localStorage": [
+        {
+          "name": "minotaur:data:cache",
+          "value": "\"xí[ïOâL\\u0010þWÜ'j\\u0001\\u000f<H.\\u0017¬ðJ^\\u0011\\u00025æ1fi\\u0017ØØvëîV\\\\üßo¶¿( ¾¢\\u0018\\u001a?ÐîNwgçyv¶cÿ¨\\u0013!|^×uÄ!õ0§\\u0001³°@¿\\u000f-êÊF}B]¬!Ë¢'8f\\u000fÄÂ:òþPÖVý\\u001f,:#á\\u0010\\f÷Æ8v#îüEG#ÅÏâ7¸\\u0004~Õú\\u001fU\\u0010\\u0017s\\\\_­KÕZé¨R<.×\\nª\\u0004\\u0012&\\u0015Èéc2«õbA=\\r;®o\\u001e\\u001f\\u000bêUã²¾â>£v`Pãøë\\u000f¥äZ4î \\u000f1[§Y¹ü½:×¬\\u0017=Ú>Uëêâã $á¾f\\u0017ÈÅi¯2ïî\\u0013Ä±\\róë:\\b|2!Û\\u0005\\u000bpA½ \\\"mëcÄ©\\u0007O`ÛW^à8\\u0005Õùr>¶\\tÃ¸ÀS\\u0013\\rå$PFÄLÎÁØ\\f\\u001aÏQàYKæ,+­w\\u0010ñ\\u000e\\u0011÷\\u0004\\u001eS\\u0016ë\\u001fMÓ\\\"ÌmKÁèj\\u0004\\u0001c&\\u001bKÙxÕ)5å\\u0003â\\u001dlb\\u000fyB­Ãaaôî¨Á9µ\\bÌf\\u000faâ)áp\\ro\\u001c8ýHv`s\\u0010Ý+3CY¢gÃbÔ¹Ém'Ëô}P¤ï\\u00030\\u001d?û>NäÎ»usT<þxÎõ¢ë4lx\\u000b\\u0004¡Þ\\u0000À_q E-;Ð&®£óXÏýñÂ\\\"là\\u0003\\u001a°¬Õk+»\\u0007Xª¯\\u0016]Ã-ZùÀ\\u0006ìÈgad;\\u0004\\u0002}«ÏÆ¿½nûÂÜ\\u0012j=Pr0èn\\u0002ZÂJ`\\u0016I0Ö\\u0004[w>%8\\u0014@H0\\u000bÃ\\u0001ÀÁCÚ5T?2\\u001aÔ2W9ö*ªi¿\\bì\\u0000¶\\u0000ít:ÍÀ:º`ºh\\u0004!ëëÄ³ñ~íÈKÈv\\r³Ù\\\"\\u0010«ãuÙUSú?(¿Úm©%ðÈ\\r³í\\u0017-c\\u000b\\\\«\\u001eTòOÍà§6[\\u001dõ\\u0019\\u0000åØËø5=\\u0001ºô8atÊÂ/P¤\\u0012Ë(8'Öçé\\u000bèEw;\\u0018yêA­U9)µ\\u0016á»<y\\u000e¾'ã\\u000fb\\u000b÷)uW`Ët¼\\u0013Fê\\u0010´¢\\u001a\\u001bm\\u0004£k,\\u001aþí\\u001b'ðéÝÈ¡S\\rRøò<±wè\\u0018Î:fÛW\\u001dý<¼'_`\\u0011\\u000fV÷3³¶¯I¼êÁ©Ql\\u0014\\u001b\\u000bð·ú¯Fß \\fÐ\\u0002¥Lô{Å\\u0003º\\u0017ÍA÷²o4TLäv¿,ï¶ZZqw\\róÕÈ¥à,àb5Ï\\nì\\u0002jB*óe¡«\\u001dË¿\\u0005èÌ×Cw>(\\u000bIw\\u0002@\\u0019úXZ\\u001bZVpLE¬ÌçCÉÙ®çæ0\\u001eW«'ÕÅ\\b\\u001c¼;!¡y³4Ó2hó.E3\\u0019\\\"L_¿)\\u0006\\u0006üFÄ\\n_\\u001al;\\\"7Oì¦éþ\\u0019¤êççÐEÌápy×C>fë\\u000e+RÀ\\u0002;A¸Ó-¿ÂÛjËoLpªµÓÊ÷ ½ê½x:¹y\\u0017¾\\u0013ìõe£b­´öeïZ&âw«\\u001brg¦T;¥ÛÉ§E<ç[¼Ä\\tjSøÑ`4îs|\\u001bÔuý ôlÏ\\u0016ð³2Ãÿo\\\"O\\u0007{¾­Ð\\u001cÚÑÀ×÷@D¸\\u001dÍÙ¯\\t>¾Qp\\u001fÄ+îp\\u001d;p\\u001fÈÜ0,*¼ý`\\fLw\\u0012ô#ÎfÃ¬%-û\\fwzJjÃB\\u001cáIÐ\\u0000å{â\\t\\u000eËàØÙ½\\u0012ôùûgy\\u001a\\u000e¤Ò«{lÚ¼¸\\u001c¼qEZû\\u0013gï¹Ø\\u000bÉÂªyÉýK;I^rÿô!yÉ=/¹ç%÷ýB6/¹ç%÷¼äÜó{^rÏKîyÉ}§¡ËKîyÉ=/¹ï\\u0018îyÉ=/¹¿sÉ=ýP/\\u001eé<\\u0018FåJ>bÔ\\u0005d,\\bçå\\u000f\\rKÅo\\u001c`<ý¦¸µîq¥T)Í¿ïËZâú*a¨_DÆP¾íã±´\\u0018\\u0010Çm¤E\\tlq\\u0011¸Cù¯\\u0001à\\u0015ãÛRè\\u0012¡â/\\u001c_\\u0000Æ\\u0019\\u0017Øf£\\\"·\\u001a\\u0019]ÒëcÑ$0L\\u0005\\\\@k¡tNVÁÛV»ßy³\\u00121}/ëP+Ñ\\u000b\\u000e±n\\u001b½vlìü²µø&¸),}\\rzôøøø\\u0017Ó_!\\u0012\""
+        },
+        {
+          "name": "minotaur:data:uge:is-global-customer",
+          "value": "false"
+        },
+        {
+          "name": "minotaur:storage:item:9a06e60b-f4e1-4d4f-b3e2-cc4370833a46",
+          "value": "{\"data\":{\"scm\":{\"CorporateTax\":1}}}"
+        },
+        {
+          "name": "minotaur:data:cache:date",
+          "value": "2026-02-21T16:29:09.6707573Z"
+        },
+        {
+          "name": "minotaur:master-channel",
+          "value": "{\"id\":\"9a06e60b-f4e1-4d4f-b3e2-cc4370833a46\"}"
+        },
+        {
+          "name": "minotaur:broadcast-channel",
+          "value": "{\"identifier\":{\"type\":\"minotaur:session-renewed\",\"originWindowId\":\"9a06e60b-f4e1-4d4f-b3e2-cc4370833a46\",\"counter\":3},\"destinationWindowId\":null,\"data\":null}"
+        }
+      ]
+    }
+  ]
+}
