@@ -9,6 +9,8 @@ import{ testDataForBVT_UK } from '../Utils/test-base.js';
 
 testDataForBVT_UK('BVT_UK', async ({ testDataForBVT_UK, page }) => {
 
+const normalizeUiText = (value) => value.replace(/\u00a0/g, " ").trim();
+
 const testURL = environments[testDataForBVT_UK.env].url;
 
     const poManager = new POManager(page);
@@ -53,10 +55,10 @@ await page.waitForTimeout(3000);
     await poManager.createNewMap1(testDataForBVT_UK.MapName, testDataForBVT_UK.DatasetName, testDataForBVT_UK.COAName, "United Kingdom Corporate Tax 2025 1.121", "Trial balance");
     
    // creating Import
-
      await frame.getByRole('button', { name: 'Imports' }).click();
      await page.waitForTimeout(2000);
-    await frame.getByRole('link', { name: 'Import Details' }).click();
+    await frame.getByText('ImportDetails').click();
+    //await frame.getByRole('link', { name: 'Import Details' }).click();
     await page.waitForTimeout(2000);
    await poManager.createNewImport1(testDataForBVT_UK.ImportName, testDataForBVT_UK.DatasetName, testDataForBVT_UK.ImportType, testDataForBVT_UK.EntityName);
 
@@ -88,13 +90,11 @@ await frame.getByText('Income statement', { exact: true }).click();
 
 const Turnover= await frame.locator('[id="athena-worksheet-Cell-6:2"] > div:nth-child(3)').innerText();
 console.log("Turnover value in Calculation after import:" +Turnover);
-expect(Turnover).toBe(expTurnoverValue);
+expect(normalizeUiText(Turnover)).toBe(expTurnoverValue);
 
 const costOfSales=await frame.locator("//div[@id='athena-worksheet-Cell-7:2']/div/span").innerText();
 console.log("Cost of Sales value in Calculation after import:" +costOfSales);
-expect(costOfSales).toBe(expCostOfSalesValue);
-
-     await page.pause();
+expect(normalizeUiText(costOfSales)).toBe(expCostOfSalesValue);
    
 });
        
