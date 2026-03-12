@@ -15,7 +15,7 @@ const testURL = environments[testDataForBVT_UK.env].url;
     if (testDataForBVT_UK.env === "EMEA" || testDataForBVT_UK.env === "APAC") {
         await page.goto(testURL);
         const login = new POManager(page);
-        await login.loginToApplication("AkshayVadde.fim", "$Admin#135", "SYS_FIRM");
+        await login.loginToApplication("AkshayVadde.fim", "$Admin#136", "SYS_FIRM");
       } else if (testDataForBVT_UK.env === "QA" || testDataForBVT_UK.env === "SAT") {
         await page.goto(testURL);
         const login = new POManager(page);

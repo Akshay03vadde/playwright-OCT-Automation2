@@ -13,7 +13,7 @@ export const testDataForBVT_UK = base.extend({
             MapName: `PWMap_${Date.now()}`,
             ImportType: "Trial balance",
             ImportName: `PWImport_${Date.now()}`,
-            env: "SAT"
+            env: "EMEA"
         });
     }
 });
