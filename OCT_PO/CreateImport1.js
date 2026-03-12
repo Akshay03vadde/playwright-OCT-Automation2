@@ -39,7 +39,7 @@ class CreateImport1 {
   await this.page.keyboard.press('Tab');
  
     //await frame.getByRole('label', { name: 'Press enter key to browse file' }).click();
-  await this.fileInput.setInputFiles("C:/Playwright self/Test Data/BVT_UK_ImportTB.xlsx");
+  await this.fileInput.setInputFiles("C:/Playwright_self/Test Data/BVT_UK_ImportTB.xlsx");
   await this.entityradioButton.check();// Select entity in import setup
   await this.page.keyboard.press('Tab');
   await this.entityInput.pressSequentially(EntityName);

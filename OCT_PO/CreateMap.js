@@ -43,7 +43,7 @@ class CreateMap {
     await this.page.waitForTimeout(2000);
     await this.frame.locator(`//a[text()="${mapName}"]`).click(); // Click the created Map to open details page
     await this.page.waitForTimeout(5000);
-    await this.frame.locator('input[type="file"]').setInputFiles("C:/Playwright self/Test Data/BVT_UK_ImportMapping.xlsx");
+    await this.frame.locator('input[type="file"]').setInputFiles("C:/Playwright_self/Test Data/BVT_UK_ImportMapping.xlsx");
     await this.page.waitForTimeout(2000);
     console.log("Map created successfully with name: " + mapName);
 }
