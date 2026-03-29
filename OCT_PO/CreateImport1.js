@@ -1,3 +1,5 @@
+import { expect } from '@playwright/test';
+
 class CreateImport1 {
     constructor(page) {
             this.page = page;
@@ -39,7 +41,7 @@ class CreateImport1 {
   await this.page.keyboard.press('Tab');
  
     //await frame.getByRole('label', { name: 'Press enter key to browse file' }).click();
-  await this.fileInput.setInputFiles("C:/Playwright_self/Test Data/BVT_UK_ImportTB.xlsx");
+  await this.fileInput.setInputFiles("C:/Playwright_self/playwright-OCT-Automation2/Test Data/BVT_UK_ImportTB.xlsx");
   await this.entityradioButton.check();// Select entity in import setup
   await this.page.keyboard.press('Tab');
   await this.entityInput.pressSequentially(EntityName);
@@ -53,6 +55,17 @@ class CreateImport1 {
  await this.importButton.click();
  console.log("Import created successfully with name: " + ImportName);
  await this.page.waitForTimeout(2000);
+
+
+
+       // Verify Import Creation
+    await this.frame.getByLabel('Edit Filter for Column Name').nth(1).click();
+    await this.frame.getByRole('textbox', { name: 'Search Item List' }).fill(ImportName);
+    await this.page.waitForTimeout(1000);
+    await this.frame.getByRole('button', { name: 'Apply' }).click();
+    await this.page.waitForTimeout(2000);
+    await expect(this.frame.getByRole('gridcell', { name: ImportName })).toHaveText(ImportName);
+ 
 
   
 }

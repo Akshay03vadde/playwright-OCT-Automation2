@@ -16,12 +16,12 @@ const testURL = environments[testDataForBVT_UK.env].url;
     const poManager = new POManager(page);
     if (testDataForBVT_UK.env === "EMEA" || testDataForBVT_UK.env === "APAC") {
         await page.goto(testURL);
-        const login = new POManager(page);
-        await login.loginToApplication("AkshayVadde.fim", "$Admin#136", "SYS_FIRM");
+        //const login = new POManager(page);
+        await poManager.loginToApplication("AkshayVadde.fim", "$Admin#136", "SYS_FIRM");
       } else if (testDataForBVT_UK.env === "QA" || testDataForBVT_UK.env === "SAT") {
         await page.goto(testURL);
-        const login = new POManager(page);
-        await login.loginToLApp("akshay.vadde+test@tr.com","$Admin#1","SYS_FIRM");
+        
+        await poManager.loginToLApp("akshay.vadde+test@tr.com","$Admin#1","SYS_FIRM");
       }
 
     const frame = page.frameLocator('iframe[title="Corporate Tax"]');
@@ -39,6 +39,7 @@ await page.waitForTimeout(3000);
     // creating Dataset
      await frame.getByRole('button', { name: 'Calculations' }).click();
     await frame.getByText('Calculations').nth(1).click();
+    await page.pause();
    const result = await poManager.createDataset(testDataForBVT_UK.DatasetName, testDataForBVT_UK.EntityName);
    testDataForBVT_UK.taxYear = result.taxYear;
    testDataForBVT_UK.CalculationName = result.CalculationName;
@@ -62,14 +63,14 @@ await page.waitForTimeout(3000);
     await page.waitForTimeout(2000);
    await poManager.createNewImport1(testDataForBVT_UK.ImportName, testDataForBVT_UK.DatasetName, testDataForBVT_UK.ImportType, testDataForBVT_UK.EntityName);
 
-      // Verify Import Creation
+   /*   // Verify Import Creation
    await frame.getByLabel('Edit Filter for Column Name').nth(1).click();
    await frame.getByRole('textbox', { name: 'Search Item List' }).fill(testDataForBVT_UK.ImportName);
    await page.waitForTimeout(1000);
    await frame.getByRole('button', { name: 'Apply' }).click();
    await page.waitForTimeout(2000);
    const importText = await frame.getByRole('gridcell', { name: testDataForBVT_UK.ImportName }).textContent();
-  expect(importText).toBe(testDataForBVT_UK.ImportName);
+  expect(importText).toBe(testDataForBVT_UK.ImportName); */
 
 
 // Navigate to CMS screen, open newly created calculation and verify the imported values

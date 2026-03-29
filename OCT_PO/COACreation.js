@@ -4,7 +4,8 @@ class COACreation {
     this.frame = page.frameLocator('iframe[title="Corporate Tax"]');
     this.addButton = this.frame.locator("//i[@class='bento-icon-add']");
     this.COANameInput = this.frame.locator(".col-sm-6");
-    this.taxYearInput = this.frame.locator("#bui-combobox-0-input"); // Locator for tax year input in COA creation form
+     this.taxYearInput = this.frame.getByRole("textbox", {name: "Select here"});
+; // Locator for tax year input in COA creation form
     this.okButton = this.frame.getByRole("button", { name: " Ok " });
     this.filterCOAheader = this.frame.locator(
       "//div[@id='athena-grid-cell-[object Object]-0:1']/button/span",
@@ -20,12 +21,14 @@ class COACreation {
     await this.page.waitForTimeout(2000);
     await this.COANameInput.fill(COAName); // Fill in the COA name
     console.log("COA created successfully with name:" + COAName);
-    
-    // const COAyear = await this.taxYearInput.inputValue(); // Get the default value of the tax year input
-    // console.log(COAyear);
-    // if (COAyear !== taxYear) {
-    //   await this.taxYearInput.fill(taxYear); // Update the tax year if it doesn't match the expected value
-    // }
+    await this.page.waitForTimeout(2000);
+     const COAyear = await this.taxYearInput.inputValue(); // Get the default value of the tax year input
+     console.log(COAyear);
+    if (COAyear !== taxYear) {
+       await this.taxYearInput.pressSequentially(taxYear); // Update the tax year if it doesn't match the expected value
+       await this.frame.getByText(taxYear).click(); // Select the tax year from the dropdown
+      }
+
     await this.okButton.click();
     await this.filterCOAheader.click(); // Click the actions button for the created COA to open the dropdown
     await this.page.waitForTimeout(2000);
@@ -35,7 +38,7 @@ class COACreation {
     await this.page.waitForTimeout(2000);
     await this.frame.locator(`a:has-text("${COAName}")`).click(); // Click the created COA to open details page
     await this.page.waitForTimeout(2000);
-    await this.fileInput.setInputFiles("C:/Playwright_self/Test Data/BVT_UK_ImportCoA.xlsx");
+    await this.fileInput.setInputFiles("C:/Playwright_self/playwright-OCT-Automation2/Test Data/BVT_UK_ImportCoA.xlsx");
     await this.frame.getByText("Save").click();
     await this.page.waitForTimeout(2000);
   }

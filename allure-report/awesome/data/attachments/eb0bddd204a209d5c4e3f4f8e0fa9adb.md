@@ -1,0 +1,293 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic:
+    - link "Skip to main" [ref=e2] [cursor=pointer]:
+      - /url: "#main-content"
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - button "Menu" [ref=e5] [cursor=pointer]:
+          - generic [ref=e6]: 
+        - generic [ref=e8]:
+          - link "THOMSON REUTERS Corporate Tax" [ref=e11] [cursor=pointer]:
+            - /url: ""
+            - heading "THOMSON REUTERS" [level=1] [ref=e12]
+            - heading "Corporate Tax" [level=2] [ref=e13]
+          - list [ref=e14]:
+            - listitem [ref=e16]:
+              - button "Home " [ref=e17] [cursor=pointer]:
+                - generic [ref=e18]: Home
+                - generic [ref=e19]: 
+            - listitem [ref=e21]:
+              - button "My To-Do  " [ref=e22] [cursor=pointer]:
+                - generic [ref=e23]: My To-Do
+                - generic [ref=e24]: 
+                - generic [ref=e25]: 
+            - listitem [ref=e27]:
+              - button "Community " [ref=e28] [cursor=pointer]:
+                - generic [ref=e29]: Community
+                - generic [ref=e30]: 
+            - listitem [ref=e32]:
+              - button "CoCounsel" [ref=e33] [cursor=pointer]:
+                - generic [ref=e34]: CoCounsel
+                - img [ref=e38]
+            - listitem [ref=e41]:
+              - button "Alerts " [ref=e42] [cursor=pointer]:
+                - generic [ref=e43]: Alerts
+                - generic [ref=e44]: 
+            - listitem [ref=e45]:
+              - button "ONESOURCE UI Version Info " [ref=e46] [cursor=pointer]:
+                - generic [ref=e47]: ONESOURCE UI Version Info
+                - generic [ref=e48]: 
+          - list [ref=e49]:
+            - listitem [ref=e51]:
+              - button "My Account Akshay Auto01 OCT SAT Regression OCM (WAU) " [ref=e52] [cursor=pointer]:
+                - generic [ref=e53]:
+                  - generic [ref=e54]: My Account
+                  - generic [ref=e55]: Akshay Auto01
+                  - generic [ref=e56]: OCT SAT Regression OCM (WAU)
+                - generic [ref=e57]: 
+      - region [ref=e59]
+      - region [ref=e61]
+      - generic [ref=e62]:
+        - iframe [active] [ref=e66]:
+          - generic [ref=f1e1]:
+            - generic [ref=f1e3]:
+              - generic [ref=f1e6]:
+                - list [ref=f1e9]:
+                  - listitem [ref=f1e10]:
+                    - button [ref=f1e12] [cursor=pointer]: Imports
+                    - button [ref=f1e14] [cursor=pointer]: Reports
+                    - button [ref=f1e16] [cursor=pointer]: Calculations
+                    - button [ref=f1e18] [cursor=pointer]: Configuration
+                    - button [ref=f1e20] [cursor=pointer]: Help
+                - generic [ref=f1e25] [cursor=pointer]:
+                  - generic [ref=f1e26]:
+                    - generic [ref=f1e27]: 
+                    - generic [ref=f1e29]: "1"
+                    - generic [ref=f1e30]: 
+                  - text:  
+                - button [ref=f1e32] [cursor=pointer]: OCT SAT Regression OCM( SYS_FIRM )
+              - generic [ref=f1e36]:
+                - toolbar [ref=f1e37]:
+                  - generic [ref=f1e39]: Chart of Accounts
+                  - navigation [ref=f1e40]:
+                    - list [ref=f1e41]:
+                      - listitem [ref=f1e42]:
+                        - menuitem [ref=f1e43] [cursor=pointer]:
+                          - generic [ref=f1e44]: 
+                          - text: Add
+                      - listitem [ref=f1e45]:
+                        - menuitem [ref=f1e46] [cursor=pointer]:
+                          - generic [ref=f1e47]: 
+                          - text: Refresh
+                  - group [ref=f1e48]:
+                    - listitem [ref=f1e49]:
+                      - button [pressed] [ref=f1e50] [cursor=pointer]:
+                        - generic [ref=f1e51]: 
+                    - listitem [ref=f1e52]:
+                      - button [ref=f1e53] [cursor=pointer]:
+                        - generic [ref=f1e54]: 
+                    - listitem [ref=f1e55]:
+                      - button [disabled] [ref=f1e56]:
+                        - generic [ref=f1e57]: 
+                    - listitem [ref=f1e58]:
+                      - button [ref=f1e60] [cursor=pointer]:
+                        - generic [ref=f1e61]: 
+                        - generic [ref=f1e62]: 
+                - generic [ref=f1e65]:
+                  - grid [ref=f1e67]:
+                    - columnheader: Actions
+                    - columnheader:
+                      - button:
+                        - generic: 
+                      - text: Name
+                    - columnheader:
+                      - button:
+                        - generic: 
+                      - text: Year
+                    - gridcell [selected] [ref=f1e68]:
+                      - generic [ref=f1e69]:
+                        - button [ref=f1e72] [cursor=pointer]: 
+                        - button [ref=f1e75] [cursor=pointer]: 
+                        - button [ref=f1e78] [cursor=pointer]: 
+                    - gridcell [ref=f1e79]:
+                      - generic [ref=f1e81]: SM_SA_COA
+                    - gridcell [ref=f1e82]: "2026"
+                    - gridcell [ref=f1e83]:
+                      - generic [ref=f1e84]:
+                        - button [ref=f1e87] [cursor=pointer]: 
+                        - button [ref=f1e90] [cursor=pointer]: 
+                        - button [ref=f1e93] [cursor=pointer]: 
+                    - gridcell [ref=f1e94]:
+                      - generic [ref=f1e96]: AUNMU_COA
+                    - gridcell [ref=f1e97]: "2026"
+                    - gridcell [ref=f1e98]:
+                      - generic [ref=f1e99]:
+                        - button [ref=f1e102] [cursor=pointer]: 
+                        - button [ref=f1e105] [cursor=pointer]: 
+                        - button [ref=f1e108] [cursor=pointer]: 
+                    - gridcell [ref=f1e109]:
+                      - generic [ref=f1e111]: SmkCOA-BCOCBEIHC
+                    - gridcell [ref=f1e112]: "2025"
+                    - gridcell [ref=f1e113]:
+                      - generic [ref=f1e114]:
+                        - button [ref=f1e117] [cursor=pointer]: 
+                        - button [ref=f1e120] [cursor=pointer]: 
+                        - button [ref=f1e123] [cursor=pointer]: 
+                    - gridcell [ref=f1e124]:
+                      - generic [ref=f1e126]: R2026.1_COA
+                    - gridcell [ref=f1e127]: "2025"
+                    - gridcell [ref=f1e128]:
+                      - generic [ref=f1e129]:
+                        - button [ref=f1e132] [cursor=pointer]: 
+                        - button [ref=f1e135] [cursor=pointer]: 
+                        - button [ref=f1e138] [cursor=pointer]: 
+                    - gridcell [ref=f1e139]:
+                      - generic [ref=f1e141]: 04-UK-COA
+                    - gridcell [ref=f1e142]: "2025"
+                    - gridcell [ref=f1e143]:
+                      - generic [ref=f1e144]:
+                        - button [ref=f1e147] [cursor=pointer]: 
+                        - button [ref=f1e150] [cursor=pointer]: 
+                        - button [ref=f1e153] [cursor=pointer]: 
+                    - gridcell [ref=f1e154]:
+                      - generic [ref=f1e156]: SmkCOA-BKOCGYFCFC
+                    - gridcell [ref=f1e157]: "2025"
+                    - gridcell [ref=f1e158]:
+                      - generic [ref=f1e159]:
+                        - button [ref=f1e162] [cursor=pointer]: 
+                        - button [ref=f1e165] [cursor=pointer]: 
+                        - button [ref=f1e168] [cursor=pointer]: 
+                    - gridcell [ref=f1e169]:
+                      - generic [ref=f1e171]: BVTAUCoA-BIVEFMEBDD
+                    - gridcell [ref=f1e172]: "2026"
+                    - gridcell [ref=f1e173]:
+                      - generic [ref=f1e174]:
+                        - button [ref=f1e177] [cursor=pointer]: 
+                        - button [ref=f1e180] [cursor=pointer]: 
+                        - button [ref=f1e183] [cursor=pointer]: 
+                    - gridcell [ref=f1e184]:
+                      - generic [ref=f1e186]: 2374230_COA-BAISDAEHAD
+                    - gridcell [ref=f1e187]: "2025"
+                    - gridcell [ref=f1e188]:
+                      - generic [ref=f1e189]:
+                        - button [ref=f1e192] [cursor=pointer]: 
+                        - button [ref=f1e195] [cursor=pointer]: 
+                        - button [ref=f1e198] [cursor=pointer]: 
+                    - gridcell [ref=f1e199]:
+                      - generic [ref=f1e201]: BVTAUCoA-BAIVXHBGC
+                    - gridcell [ref=f1e202]: "2025"
+                    - gridcell [ref=f1e203]:
+                      - generic [ref=f1e204]:
+                        - button [ref=f1e207] [cursor=pointer]: 
+                        - button [ref=f1e210] [cursor=pointer]: 
+                        - button [ref=f1e213] [cursor=pointer]: 
+                    - gridcell [ref=f1e214]:
+                      - generic [ref=f1e216]: 2374230_COA-BAKBAIECC
+                    - gridcell [ref=f1e217]: "2025"
+                    - gridcell [ref=f1e218]:
+                      - generic [ref=f1e219]:
+                        - button [ref=f1e222] [cursor=pointer]: 
+                        - button [ref=f1e225] [cursor=pointer]: 
+                        - button [ref=f1e228] [cursor=pointer]: 
+                    - gridcell [ref=f1e229]:
+                      - generic [ref=f1e231]: NMUAUCOA-BAKBCGCCII
+                    - gridcell [ref=f1e232]: "2025"
+                    - gridcell [ref=f1e233]:
+                      - generic [ref=f1e234]:
+                        - button [ref=f1e237] [cursor=pointer]: 
+                        - button [ref=f1e240] [cursor=pointer]: 
+                        - button [ref=f1e243] [cursor=pointer]: 
+                    - gridcell [ref=f1e244]:
+                      - generic [ref=f1e246]: SmkCOA-BAKBEIDHDC
+                    - gridcell [ref=f1e247]: "2025"
+                    - gridcell [ref=f1e248]:
+                      - generic [ref=f1e249]:
+                        - button [ref=f1e252] [cursor=pointer]: 
+                        - button [ref=f1e255] [cursor=pointer]: 
+                        - button [ref=f1e258] [cursor=pointer]: 
+                    - gridcell [ref=f1e259]:
+                      - generic [ref=f1e261]: BVTUKCoA-BAKEGCABFDD
+                    - gridcell [ref=f1e262]: "2026"
+                    - gridcell [ref=f1e263]:
+                      - generic [ref=f1e264]:
+                        - button [ref=f1e267] [cursor=pointer]: 
+                        - button [ref=f1e270] [cursor=pointer]: 
+                        - button [ref=f1e273] [cursor=pointer]: 
+                    - gridcell [ref=f1e274]:
+                      - generic [ref=f1e276]: BVTAUCoA@-BALBQICHI
+                    - gridcell [ref=f1e277]: "2026"
+                    - gridcell [ref=f1e278]:
+                      - generic [ref=f1e279]:
+                        - button [ref=f1e282] [cursor=pointer]: 
+                        - button [ref=f1e285] [cursor=pointer]: 
+                        - button [ref=f1e288] [cursor=pointer]: 
+                    - gridcell [ref=f1e289]:
+                      - generic [ref=f1e291]: SmkCOA-BALCFAHDDG
+                    - gridcell [ref=f1e292]: "2025"
+                    - gridcell [ref=f1e293]:
+                      - generic [ref=f1e294]:
+                        - button [ref=f1e297] [cursor=pointer]: 
+                        - button [ref=f1e300] [cursor=pointer]: 
+                        - button [ref=f1e303] [cursor=pointer]: 
+                    - gridcell [ref=f1e304]:
+                      - generic [ref=f1e306]: SmkCOA-BALCFCFABFG
+                    - gridcell [ref=f1e307]: "2025"
+                  - generic [ref=f1e325]:
+                    - generic [ref=f1e326]: Actions
+                    - generic [ref=f1e327]:
+                      - button [ref=f1e328] [cursor=pointer]:
+                        - generic [ref=f1e329]: 
+                      - text: Name
+                    - generic [ref=f1e330]:
+                      - button [ref=f1e331] [cursor=pointer]:
+                        - generic [ref=f1e332]: 
+                      - text: Year
+                  - generic [ref=f1e335]: "0"
+                - navigation [ref=f1e338]:
+                  - generic [ref=f1e339]:
+                    - generic [ref=f1e340]:
+                      - button [disabled]:
+                        - generic: 
+                    - generic [ref=f1e341]:
+                      - button [disabled]:
+                        - generic: 
+                    - button [ref=f1e343] [cursor=pointer]:
+                      - generic [ref=f1e344]: 
+                    - button [ref=f1e346] [cursor=pointer]:
+                      - generic [ref=f1e347]: 
+                    - generic [ref=f1e349]:
+                      - textbox [ref=f1e350]:
+                        - /placeholder: "1"
+                      - button [ref=f1e351] [cursor=pointer]: Go
+                    - generic [ref=f1e353]:
+                      - combobox [ref=f1e354] [cursor=pointer]
+                      - generic:
+                        - generic: 
+                  - generic [ref=f1e355]:
+                    - generic [ref=f1e356]: Page 1 of 29
+                    - generic [ref=f1e357]: 1 to 25 of 718
+            - dialog [ref=f1e359]:
+              - document:
+                - generic [ref=f1e361]:
+                  - generic [ref=f1e362]:
+                    - button "" [ref=f1e363] [cursor=pointer]:
+                      - generic [ref=f1e364]: 
+                    - generic [ref=f1e365]: Add chart of accounts
+                  - generic [ref=f1e366]:
+                    - generic [ref=f1e371]:
+                      - generic [ref=f1e372]: Name
+                      - textbox [active] [ref=f1e373]: PWCOA_1774347504266
+                      - generic [ref=f1e374]: Year
+                      - combobox [ref=f1e377]:
+                        - textbox "Select here" [ref=f1e379]: "2026"
+                        - button "" [ref=f1e381] [cursor=pointer]
+                        - generic [ref=f1e382]: Enter to expand
+                    - separator [ref=f1e383]
+                    - generic:
+                      - button "Cancel" [ref=f1e384] [cursor=pointer]
+                      - button "Ok" [ref=f1e385] [cursor=pointer]
+        - generic [ref=e69]: Content loaded
+```

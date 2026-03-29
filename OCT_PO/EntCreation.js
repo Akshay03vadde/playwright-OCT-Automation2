@@ -30,8 +30,9 @@ class EntCreation{
         await this.entityIdentifierCell.click();// Entity Identifier cell
         await this.page.keyboard.type(entityName);// Type the unique entity identifier
         await this.page.keyboard.press('Tab');// Confirm with Tab key
-        //await this.jurisdictionCell.click();// Jurisdiction cell
-        await this.frame.getByText(jurisdiction, { exact: true }).first().click();// select Jurisdiction from dropdown
+       // await this.jurisdictionCell.click();// Click Jurisdiction cell to activate dropdown input
+        await this.page.keyboard.type(jurisdiction);
+        await this.frame.getByRole('option', { name: jurisdiction, exact: true }).click();// select Jurisdiction from dropdown
         await this.page.keyboard.press('Tab');// Confirm with Tab key
         await this.page.keyboard.press('Enter');// Save the entity
           // Wait for grid to refresh after entity creation

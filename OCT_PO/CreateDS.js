@@ -21,7 +21,8 @@ class CreateDS
     await this.page.waitForTimeout(2000);// wait until all entities load in the list
     await this.entityFilterInput.pressSequentially(UniqueEntityName);
     await this.page.waitForTimeout(2000);
-    await this.frame.locator(`text=${UniqueEntityName}`).locator("..").locator(".enitity-checkbox").click();
+    //await this.frame.locator(`text=${UniqueEntityName}`).locator("..").locator(".entity-checkbox").click();
+    await this.frame.getByRole('treeitem', { name: UniqueEntityName }).getByRole('checkbox').click();
 
     await this.nextButton.click();
 
